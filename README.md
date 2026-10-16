@@ -40,20 +40,16 @@ Make sure you have the following installed on your machine:
 
 ##  Paradigm Shift: React Native vs. Flutter
 
-If your primary background is in **Flutter (Dart)**, working in this React Native codebase introduces a few distinct architectural and workflow differences:
+I spent most of my time working with **Flutter and Dart**, transitioning into this codebase brought a few interesting paradigm shifts. Here is a quick look at what feels different:
 
-### 1. State Management & Hooks
-* **From Flutter:** You might be used to `setState()`, `BloC`, `Provider`, or `Riverpod`.
-* **In React Native:** State is heavily component-driven using **React Hooks**. For example, the `useTheme.ts` hook in this project utilizes standard React hooks (`useColorScheme`) to dynamically switch structural styles based on system dark/light preferences.
+### 1. Embracing Hooks over Stateful Widgets
+In Flutter, managing UI states usually means relying on `setState()`, `Providers`, or complex state blocks. In React Native, everything is component-driven via **React Hooks**. Take a look at `useTheme.ts` in this project—it naturally hooks right into the system's `useColorScheme` to switch styles seamlessly behind the scenes without heavy boilerplate code.
 
-### 2. Styling UI (StyleSheets vs. Declarative Widgets)
-* **From Flutter:** Everything is a Widget (e.g., `Container`, `Padding`, `ThemeData`). You style components directly through constructor parameters.
-* **In React Native:** UI uses basic structural layout components (`View`, `Text`) combined with **JavaScript objects mimicking CSS** layout properties (`StyleSheet.create`). Layouts rely entirely on **Flexbox**, which functions similarly to Flutter’s `Flex`, `Column`, and `Row` but follows web-standard naming conventions.
+### 2. Styling with StyleSheets vs. Widget Trees
+Instead of wrapping deep nested widget structures like `Padding -> Container -> Center -> Text` with direct constructor properties, React Native splits the layout structure from the design rules. You write clean UI structures (`View`, `Text`) and style them using **JavaScript objects that mirror CSS styling rules**. It relies fully on **Flexbox**, which handles layouts similarly to Flutter's `Row` and `Column` layouts but uses universal web terminology.
 
-### 3. File-Based Routing (Expo Router)
-* **From Flutter:** Routing is typically explicit, handled via a central router configuration utility (like `GoRouter` or manual material page routes).
-* **In React Native (Expo):** This project utilizes **Expo Router** inside the `app/` directory. Routing is entirely **file-system based** (similar to Next.js on the web). Creating a folder path like `app/(tabs)/job` automatically maps to a tab navigation route without needing manual route configuration graphs.
+### 3. File-Based Routing (No More Router Config Graphs)
+Setting up navigation in Flutter typically requires configuring a central router configuration or managing explicit page transitions. This project uses **Expo Router**, which turns routing into a completely **file-system based process** (just like Next.js for the web). Any file structure you drop inside the `app/` folder—like `app/(tabs)/job`—instantly becomes a live route in your app navigation without manual setup.
 
-### 4. Compilation & The Runtime Environment
-* **From Flutter:** Your Dart code compiles down directly to native ARM machine code ahead-of-time (AOT). 
-* **In React Native:** The application runs a **JavaScript engine (like Hermes)** embedded inside a native binary wrapper. The layout engine communicates with underlying native view hierarchies across an asynchronous layer.
+### 4. JavaScript Engine vs. Compiled Machine Code
+While Flutter compiles your Dart source code straight down to raw, native ARM machine code before running, React Native utilizes an embedded **JavaScript engine (Hermes)**. This engine dynamically translates your components, letting you build flexible, data-driven interfaces that scale efficiently.
