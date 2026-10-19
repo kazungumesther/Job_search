@@ -35,8 +35,13 @@ Make sure you have the following installed on your machine:
    * Press `a` for **Android** Emulator.
    * Press `i` for **iOS** Simulator (Mac only).
    * Scan the **QR code** printed in the terminal using your phone's camera (iOS) or the Expo Go app (Android) to run it on a physical device.
+  
+4. ** Test the App Live (Expo Go)**
+   Click the link below or scan the QR code on the landing page to open and interact with the application on your physical device:
+[ https://expo.dev/accounts/essyk/projects/jobsearch/updates/a126e063-caf2-45a9-bd52-bb06cb895c97]
 
 ---
+
 
 ##  Paradigm Shift: React Native vs. Flutter
 
