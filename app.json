@@ -35,8 +35,19 @@
         }
       ]
     ],
-    "experiments": {
-      "typedRoutes": true
+    "experiments": {},
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ca2c9157-b631-44b0-a5ab-bf14d198a014"
+      }
+    },
+    "owner": "essyk",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ca2c9157-b631-44b0-a5ab-bf14d198a014"
     }
   }
 }

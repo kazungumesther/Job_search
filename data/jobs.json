@@ -1,0 +1,17 @@
+[
+  { "id": "1", "title": "Frontend Developer", "company": "Acme", "location": "Remote", "type": "Full-time", "description": "Build and maintain React web apps. Work with designers on reusable components." },
+  { "id": "2", "title": "React Native Engineer", "company": "Globex", "location": "Amsterdam", "type": "Full-time", "description": "Ship features for our iOS and Android app using React Native and TypeScript." },
+  { "id": "3", "title": "Mobile Developer", "company": "Initech", "location": "Berlin", "type": "Contract", "description": "Help migrate a legacy app to React Native with Expo." },
+  { "id": "4", "title": "Full Stack Engineer", "company": "Umbrella", "location": "Remote", "type": "Full-time", "description": "Node.js APIs and React frontends for a data analytics product." },
+  { "id": "5", "title": "UI Engineer", "company": "Hooli", "location": "London", "type": "Part-time", "description": "Own the design system and component library." },
+  { "id": "6", "title": "Junior Frontend Developer", "company": "Stark", "location": "Remote", "type": "Internship", "description": "Learn on the job building customer-facing dashboards." },
+  { "id": "7", "title": "Senior React Developer", "company": "Wayne Tech", "location": "Paris", "type": "Full-time", "description": "Lead frontend architecture and mentor a small team." },
+  { "id": "8", "title": "Web Developer", "company": "Soylent", "location": "Utrecht", "type": "Contract", "description": "Build marketing sites and internal tools." },
+  { "id": "9", "title": "Cross-platform Developer", "company": "Pied Piper", "location": "Remote", "type": "Full-time", "description": "Share code between web and mobile using React and React Native." },
+  { "id": "10", "title": "Frontend Intern", "company": "Cyberdyne", "location": "Rotterdam", "type": "Internship", "description": "Work with senior engineers on production features." },
+  { "id": "11", "title": "React Native Developer", "company": "Tyrell Corp", "location": "Remote", "type": "Full-time", "description": "Develop and maintain our mobile app using React Native." },
+  { "id": "12", "title": "Frontend Engineer", "company": "Wonka Industries", "location": "Amsterdam", "type": "Full-time", "description": "Work on our e-commerce platform using React and TypeScript." },
+  { "id": "13", "title": "Mobile App Developer", "company": "Cyberdyne Systems", "location": "Berlin", "type": "Contract", "description": "Help migrate a legacy app to React Native with Expo." },
+  { "id": "14", "title": "Full Stack Developer", "company": "Initech", "location": "Remote", "type": "Full-time", "description": "Node.js APIs and React frontends for a data analytics product." },
+  { "id": "15", "title": "UI/UX Engineer", "company": "Hooli", "location": "London", "type": "Part-time", "description": "Own the design system and component library." }
+]
