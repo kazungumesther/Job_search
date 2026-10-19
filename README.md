@@ -36,9 +36,9 @@ Make sure you have the following installed on your machine:
    * Press `i` for **iOS** Simulator (Mac only).
    * Scan the **QR code** printed in the terminal using your phone's camera (iOS) or the Expo Go app (Android) to run it on a physical device.
   
-4. ** Test the App Live (Expo Go)**
+4. **Test the App Live (Expo Go)**
    Click the link below or scan the QR code on the landing page to open and interact with the application on your physical device:
-[ https://expo.dev/accounts/essyk/projects/jobsearch/updates/a126e063-caf2-45a9-bd52-bb06cb895c97]
+[ https://expo.dev/preview/update?message=Initial+commit%0A%0AGenerated+by+create-expo+5.1.5.&updateRuntimeVersion=1.0.0&createdAt=2026-10-19T05%3A03%3A54.053Z&slug=exp&projectId=ca2c9157-b631-44b0-a5ab-bf14d198a014&group=a126e063-caf2-45a9-bd52-bb06cb895c97]
 
 ---
 
